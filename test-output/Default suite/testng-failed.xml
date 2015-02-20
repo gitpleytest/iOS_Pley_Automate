@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="TestCases.TestGift_25">
+        <methods>
+          <include name="TestgiftExistingToExisting"/>
+          <include name="TestExistingToExisting_Login"/>
+          <include name="TestgiftNewToNew"/>
+          <include name="TestgiftExistingToNew"/>
+          <include name="setup"/>
+          <include name="TestNewToExisting"/>
+          <include name="TestExistingToNew_Login"/>
+        </methods>
+      </class> <!-- TestCases.TestGift_25 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

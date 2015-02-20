@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="6" failed="0" total="6" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="54" started-at="2015-01-22T09:54:13Z" finished-at="2015-01-22T09:54:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="54" started-at="2015-01-22T09:54:13Z" finished-at="2015-01-22T09:54:13Z">
+      <class name="TestCases.TestGift_25">
+        <test-method status="FAIL" signature="setup()[pri:0, instance:TestCases.TestGift_25@15978e7]" name="setup" is-config="true" duration-ms="0" started-at="2015-01-22T15:24:12Z" finished-at="2015-01-22T15:24:12Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[ERROR running Appium command: ENOENT, no such file or directory 'D:\adt-bundle-windows-x86-20140702\sdk\tools\build-tools'
+Command duration or timeout: 375 milliseconds
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'user-PC', ip: '192.168.1.16', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_80-ea'
+Driver info: io.appium.java_client.android.AndroidDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: ERROR running Appium command: ENOENT, no such file or directory 'D:\adt-bundle-windows-x86-20140702\sdk\tools\build-tools'
+Command duration or timeout: 375 milliseconds
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'user-PC', ip: '192.168.1.16', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_80-ea'
+Driver info: io.appium.java_client.android.AndroidDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:176)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:153)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:107)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:40)
+	at core.TestCore.setup(TestCore.java:80)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:277)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="TestgiftExistingToNew()[pri:0, instance:TestCases.TestGift_25@15978e7]" name="TestgiftExistingToNew" duration-ms="2" started-at="2015-01-22T15:24:13Z" finished-at="2015-01-22T15:24:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestgiftExistingToNew -->
+        <test-method status="SKIP" signature="TestgiftExistingToExisting()[pri:0, instance:TestCases.TestGift_25@15978e7]" name="TestgiftExistingToExisting" duration-ms="1" started-at="2015-01-22T15:24:13Z" finished-at="2015-01-22T15:24:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestgiftExistingToExisting -->
+        <test-method status="SKIP" signature="TestgiftNewToNew()[pri:0, instance:TestCases.TestGift_25@15978e7]" name="TestgiftNewToNew" duration-ms="2" started-at="2015-01-22T15:24:13Z" finished-at="2015-01-22T15:24:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestgiftNewToNew -->
+        <test-method status="SKIP" signature="TestNewToExisting()[pri:0, instance:TestCases.TestGift_25@15978e7]" name="TestNewToExisting" duration-ms="2" started-at="2015-01-22T15:24:13Z" finished-at="2015-01-22T15:24:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestNewToExisting -->
+        <test-method status="SKIP" signature="TestExistingToNew_Login()[pri:0, instance:TestCases.TestGift_25@15978e7]" name="TestExistingToNew_Login" duration-ms="1" started-at="2015-01-22T15:24:13Z" finished-at="2015-01-22T15:24:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestExistingToNew_Login -->
+        <test-method status="SKIP" signature="TestExistingToExisting_Login()[pri:0, instance:TestCases.TestGift_25@15978e7]" name="TestExistingToExisting_Login" duration-ms="1" started-at="2015-01-22T15:24:13Z" finished-at="2015-01-22T15:24:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestExistingToExisting_Login -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:TestCases.TestGift_25@15978e7]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-01-22T15:24:13Z" finished-at="2015-01-22T15:24:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TestGift_25 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

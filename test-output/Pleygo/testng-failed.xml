@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Pleygo]">
+  <test name="Any Amount Gift Card test(failed)">
+    <classes>
+      <class name="TestCases.TestGift_AnyAmount">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TestExistingToExisting_LoginRandom"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestCases.TestGift_AnyAmount -->
+    </classes>
+  </test> <!-- Any Amount Gift Card test(failed) -->
+</suite> <!-- Failed suite [Pleygo] -->
